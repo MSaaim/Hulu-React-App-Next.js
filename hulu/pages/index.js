@@ -14,7 +14,6 @@ export default function Home() {
       {/* HEADER*/}
       <Header/>
 
-      <h1>Hulu My Version</h1>
     </div>
   )
 }
