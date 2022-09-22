@@ -1,13 +1,26 @@
+import{
+    BadgeCheckIcon,
+    CollectionIcon,
+    HomeIcon,
+    LightningBoltIcon,
+    SearchIcon,
+    UserIcon,
+} from '@heroicons/react/outline';
+
 import Image from "next/image";
+import HuluLogo from '../assets/Hulu_2017.svg'
+import HeaderItem from "./HeaderItem";
+
 
 function Header() {
     return (
         <header className="">
-            <h1>The stupid header</h1>
-
+            <div>
+                <HeaderItem  title ='HOME' Icon={HomeIcon}/>
+            </div>
             <Image
                 className="object-contain"
-                src="/assets\Hulu_2017.svg"
+                src={HuluLogo}
                 width={200}
                 height={100}
             />
