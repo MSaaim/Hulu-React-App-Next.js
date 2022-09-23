@@ -25,16 +25,16 @@ export default {
         title: "Mystery",
         url: `/discover/movie?api_key=${API_KEY}&with_generes=9648`
     },
-    fetchScifiMovies:{
-        title:"Sci-fi",
-        url:`/discover/movie?api_key=${API_KEY}&with_genres=878`
+    fetchScifiMovies: {
+        title: "Sci-fi",
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=878`
     },
-    fetchAnimatedMovies:{
-        title:"Animated",
-        url:`/discover/movie?api_key=${API_KEY}&with_genres=16`
+    fetchAnimatedMovies: {
+        title: "Animated",
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=16`
     },
-    fetchTV:{
-        title:"TV Movies",
-        url:`/discover/movie?api_key=${API_KEY}&with_genres=10770`
+    fetchTV: {
+        title: "TV Movies",
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=10770`
     },
 }
