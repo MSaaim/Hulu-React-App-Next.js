@@ -1,8 +1,8 @@
 import requests from "../utils/requests"
-import { userRouter } from "next/router";
+import { useRouter } from "next/router";
 
 function NavBar() {
-    var router = userRouter;
+    const router = useRouter();
 
     return (
         <nav className="relative">
