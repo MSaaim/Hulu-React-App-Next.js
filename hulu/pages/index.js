@@ -24,7 +24,6 @@ export default function Home({ results }) {
       {/*Results*/}
       <Results results={results} />
 
-
     </div>
   );
 }
